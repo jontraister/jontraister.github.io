@@ -1,0 +1,12 @@
+@font-face {
+    font-family: StyreneA;
+    font-weight: normal;
+    src: url("fonts/StyreneA-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StyreneA;
+    font-weight: bold;
+    src: url("fonts/StyreneA-Bold.otf") format("opentype");
+}
+

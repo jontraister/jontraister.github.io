@@ -1,0 +1,49 @@
+// _styles.sass
+
+//imports
+@import normalize
+@import fonts
+
+// fonts
+$font-regular: 'StyreneA', Helvetica, Arial, sans-serif
+
+//variables 
+$color-background: #000000
+$color-text: #c3c3c3
+$color-sling-blue: #14abe0
+$color-brand-sling-secondary: #faa21b
+
+//custom styles
+body
+	background-color: $color-background
+	font: 100% $font-regular
+	font-weight: normal
+	color: $color-text
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	text-rendering: optimizeLegibility
+	padding: 0
+	height: 3500px
+
+//classes within custom styles
+
+#progressBar 
+	position: relative
+	top: 0
+	left: 0
+	width: 100%
+	height: 10px
+	background: rgba(150,150,150,1)
+	img
+		position: absolute
+		top: 0px
+		left: 0px
+
+#imagesequence, #container
+	position: fixed
+	top: 0px
+	width: 100%
+	left: 50%
+	transform: translate(-50%, 0)
+	img, video
+		width: 100%
